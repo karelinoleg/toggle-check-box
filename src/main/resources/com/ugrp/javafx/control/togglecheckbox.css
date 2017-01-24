@@ -1,0 +1,42 @@
+.check-box > .box {
+  -fx-border-width: 0px;
+  -fx-padding: 2px;
+  -fx-background-insets: 0;
+}
+
+.check-box > .box,
+.check-box:focused > .box,
+.check-box:armed > .box {
+  -fx-body-color       : #bcbcbc;
+  -fx-background-color : -fx-outer-border, -fx-body-color;
+  -fx-effect           : innershadow(two-pass-box, rgba(0, 0, 0, 0.3), 6, 0.0, 0, 2);
+  -fx-border-radius: 16px;
+  -fx-background-radius: 16px;
+}
+
+.check-box:selected > .box {
+  -fx-body-color: #78d302;
+}
+
+.check-box > .box > .checked-text,
+.check-box > .box > .unchecked-text {
+  -fx-fill: white;
+}
+
+.check-box > .box > .thumb {
+  -fx-background-color : #f7f8f5;
+  -fx-background-insets: 0;
+  -fx-background-radius: 14px;
+  -fx-effect           : dropshadow(two-pass-box, rgba(0, 0, 0, 0.3), 3, 0.0, 0, 2);
+}
+
+
+
+
+.check-box.demo-styled > .box {
+  -fx-body-color: #6D4D36;
+}
+
+.check-box.demo-styled:selected > .box {
+  -fx-body-color: #DF8902;
+}
