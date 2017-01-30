@@ -1,4 +1,4 @@
-package com.ugrp.javafx.control;
+package com.ugrp.javafx.control.togglecheckbox;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
@@ -23,7 +23,7 @@ extends CheckBox
     public ToggleCheckBox()
     {
         getStylesheets().add(ToggleCheckBox.class
-            .getResource("togglecheckbox.css").toExternalForm());
+            .getResource("toggle-check-box.css").toExternalForm());
 
         checkedText = new SimpleStringProperty();
         uncheckedText = new SimpleStringProperty();

@@ -1,4 +1,4 @@
-package com.ugrp.javafx.control;
+package com.ugrp.javafx.control.togglecheckbox;
 
 import com.sun.javafx.scene.control.behavior.ButtonBehavior;
 import com.sun.javafx.scene.control.skin.LabeledSkinBase;
