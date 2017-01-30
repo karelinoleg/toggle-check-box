@@ -1,0 +1,9 @@
+.bread-crumbs-bar {
+  -fx-alignment: baseline-left;
+}
+
+.bread-crumbs-bar > .bread-crumb {
+}
+
+.bread-crumbs-bar > .separator {
+}
