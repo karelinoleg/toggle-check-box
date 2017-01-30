@@ -30,7 +30,7 @@ extends Application
             new ToggleCheckBox("YES", "NO"),
             styledCheckBox,
             new Label(
-                "- What are we going to do tonight, Barin?"),
+                "- What are we going to do tonight, Brain?"),
             new Label(
                 "- The same thing we do every night, Pinky…"),
             new ToggleCheckBox(
